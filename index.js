@@ -62,3 +62,5 @@ function test(msg, cb, logging) {
     console.log(`❌ ${msg}`);
   }
 }
+
+module.exports = { test, assertion };
